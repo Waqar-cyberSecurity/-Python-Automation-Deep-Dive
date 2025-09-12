@@ -1,0 +1,63 @@
+Lab 4: Basic Math Operations
+Objectives
+Understand and perform basic mathematical operations in a programming environment.
+Learn to prompt user input and display output.
+Develop coding skills to handle arithmetic operations.
+Prerequisites
+Basic understanding of programming concepts (variables, data types, input/output).
+Familiarity with Python programming language and your preferred code editor.
+Lab Tasks
+Prompt the user for two numbers.
+Compute the sum, difference, product, and quotient of the two numbers.
+Print the results to the console.
+Task Breakdown
+Task 1: Setup the Development Environment
+Ensure Python is installed on your machine. You can download it here.
+python --version
+Open your preferred code editor (e.g., VSCode, PyCharm, or Jupyter Notebook).
+Task 2: Prompt the User for Input
+Create a new Python file named basic_math_operations.py.
+# Prompting the user to enter two numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+Key Concepts:
+input(): a function to read user input as a string.
+float(): converts the string input to a floating-point number, which allows the use of decimal values.
+Task 3: Compute the Operations
+Sum: Add the two numbers.
+# Calculate the sum of the two numbers
+sum_result = num1 + num2
+Difference: Subtract the second number from the first.
+# Calculate the difference between the two numbers
+difference_result = num1 - num2
+Product: Multiply the two numbers.
+# Calculate the product of the two numbers
+product_result = num1 * num2
+Quotient: Divide the first number by the second. Handle division by zero.
+# Calculate the quotient of the two numbers
+if num2 != 0:
+    quotient_result = num1 / num2
+else:
+    quotient_result = "Undefined (division by zero)"
+Key Concepts:
+Arithmetic Operations: Basic operations of addition, subtraction, multiplication, and division.
+Task 4: Display the Results
+Print the results of each operation to the console.
+# Print the results
+print(f"Sum: {sum_result}")
+print(f"Difference: {difference_result}")
+print(f"Product: {product_result}")
+print(f"Quotient: {quotient_result}")
+Key Concepts:
+f-string: A new and improved way to format strings in Python, indicated by f before the quotes.
+Conclusion
+By completing this lab, you have learned to:
+
+Use Python to perform basic arithmetic operations.
+Properly handle user input and convert it to a numerical format.
+Display results clearly to the console.
+Ensure basic error handling, like managing division by zero.
+Additional Exercises
+Modify the program to continue prompting for numbers until the user types 'exit'.
+Enhance the program by handling more complex numbers or additional operations like exponentiation.
+This lab leverages open-source tools and aims for simplicity while providing the foundational skills required for more advanced mathematical programming operations.
