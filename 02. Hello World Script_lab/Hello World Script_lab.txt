@@ -1,0 +1,44 @@
+Lab Name: 2. Hello World Script
+Objectives
+Gain fundamental understanding of creating and running Python scripts.
+Learn how to print output to the console using Python's print() function.
+Develop foundational skills in using a text editor and the command line.
+Prerequisites
+Basic understanding of computer operations.
+Python installed on your machine (Version 3.x preferred).
+Lab Tasks
+Task 1: Setting Up Your Environment
+Verify Python Installation
+
+Open your command line interface (CLI) (Command Prompt on Windows, Terminal on macOS/Linux).
+Type the following command to verify that Python is installed:
+python --version
+You should see output indicating the Python version, e.g., Python 3.9.1. If not, download and install Python from python.org.
+Choose a Text Editor
+
+Use any text editor you are comfortable with (e.g., Notepad on Windows, TextEdit on macOS, nano or vim on Linux).
+Alternatively, an integrated development environment (IDE) like Visual Studio Code can be used for this lab.
+Task 2: Writing the Hello World Script
+Create the Python File
+
+Open your chosen text editor.
+Save a new file named hello.py.
+Write the Python Code
+
+Enter the following code into the hello.py file:
+# This is a simple Python script
+print("Hello, World!")
+Save your changes.
+Task 3: Executing the Script
+Run the Python Script
+
+Navigate to the directory where your hello.py file is saved using the CLI.
+Run the script by typing the following command:
+python hello.py
+You should see the output:
+Hello, World!
+Key Concepts
+Python Scripts: Files containing Python code that can be executed by the Python interpreter.
+print() Function: A built-in Python function used to output text to the console.
+Conclusion
+Through this lab, you have successfully written your first Python script, a "Hello, World!" program, which serves as a customary first step in learning any programming language. This exercise introduced you to essential concepts such as creating and executing Python scripts, as well as using the print() function for console output. By mastering these basics, you are now equipped with the foundational skills necessary to explore more complex programming tasks in Python.
