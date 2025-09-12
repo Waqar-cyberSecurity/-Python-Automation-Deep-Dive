@@ -1,0 +1,72 @@
+Lab 5: Conditional Statements (if, elif, else)
+Objectives
+Understand the concept of conditional statements in Python
+Learn how to use if, elif, and else to control the flow of a program
+Write scripts to compare values and handle different conditions
+Prerequisites
+Basic understanding of Python syntax
+Familiarity with variables and data types
+Lab Tasks
+Task 1: Write a Script to Compare Two Numbers and Print Which is Larger
+Step 1: Start with the Basics
+Objective: Compare two numbers and identify which one is larger.
+Script Outline:
+Define two variables with integer values.
+Use an if statement to check which number is larger.
+Print the outcome.
+Example Code
+# Define two numbers
+number1 = 10
+number2 = 20
+
+# Conditional statement to compare numbers
+if number1 > number2:
+    print("Number 1 is larger")
+else:
+    print("Number 2 is larger")
+Task 2: Extend the Script with elif to Handle the Equal Case
+Step 1: Add an elif Block
+Objective: Include an additional condition for equality between the numbers.
+Implementation:
+Modify the script to use elif for checking equality.
+Example Code
+# Define two numbers
+number1 = 10
+number2 = 10
+
+# Conditional statements with elif
+if number1 > number2:
+    print("Number 1 is larger")
+elif number1 < number2:
+    print("Number 2 is larger")
+else:
+    print("Both numbers are equal")
+Task 3: Test the Script with Various Inputs
+Step 1: Comprehensive Testing
+Objective: Ensure the script handles all possible comparisons.
+Implementation:
+Test the script by changing the values of number1 and number2 to various combinations:
+Greater than
+Less than
+Equal
+Case Study Examples
+# Test Case 1: number1 is greater
+number1 = 30
+number2 = 20
+# Output: Number 1 is larger
+
+# Test Case 2: number2 is greater
+number1 = 15
+number2 = 25
+# Output: Number 2 is larger
+
+# Test Case 3: both numbers are equal
+number1 = 50
+number2 = 50
+# Output: Both numbers are equal
+
+# Run the script and verify the outputs for each case
+Conclusion
+You successfully learned to use conditional statements to control program flow.
+You mastered the basic syntax of if, elif, and else in Python.
+This foundational skill is crucial for developing more complex logic in future programming tasks
