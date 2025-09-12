@@ -1,0 +1,64 @@
+Lab 3: Working with Variables and Data Types
+Objectives
+Understand how to create and manipulate variables in Python.
+Explore different data types such as integers, floats, strings, and booleans.
+Learn to check the data type of a variable using Python functions.
+Experiment with type casting between different data types.
+Prerequisites
+Basic understanding of Python syntax.
+Python environment set up on your system (you can use Anaconda, Python.org, or any other open-source platform).
+Lab Tasks
+Task 1: Creating Variables of Basic Types
+Define Variables
+
+Start by creating variables of different basic types. Below is a Python script to define an integer, float, string, and boolean variable:
+my_integer = 10
+my_float = 20.5
+my_string = "Hello, World!"
+my_boolean = True
+Print Variables
+
+Use the print() function to output the values of these variables.
+print(my_integer)
+print(my_float)
+print(my_string)
+print(my_boolean)
+Task 2: Checking Types Using type() Function
+Check Variable Types
+
+To determine the data type of each variable, use the type() function.
+print(type(my_integer))  # Outputs: <class 'int'>
+print(type(my_float))    # Outputs: <class 'float'>
+print(type(my_string))   # Outputs: <class 'str'>
+print(type(my_boolean))  # Outputs: <class 'bool'>
+Task 3: Type Casting Variables
+Integer to Float
+
+Convert an integer to a float using the float() function:
+new_float = float(my_integer)
+print(new_float)  # Outputs: 10.0
+print(type(new_float))  # Outputs: <class 'float'>
+Float to String
+
+Convert a float to a string using the str() function:
+new_string = str(my_float)
+print(new_string)  # Outputs: '20.5'
+print(type(new_string))  # Outputs: <class 'str'>
+String to Integer
+
+Note that for string to integer conversion, the string must represent a number:
+another_string = "15"
+new_integer = int(another_string)
+print(new_integer)  # Outputs: 15
+print(type(new_integer))  # Outputs: <class 'int'>
+Important: If the string does not represent a valid number (e.g., "abc"), attempting conversion will result in a ValueError.
+Boolean to Integer
+
+Booleans can be cast into integers, where True becomes 1 and False becomes 0:
+new_integer_from_boolean = int(my_boolean)
+print(new_integer_from_boolean)  # Outputs: 1
+Conclusion
+In this lab, you created and manipulated various data types in Python.
+You learned how to check a variable's type and saw how data types can be converted between one another, known as type casting.
+This foundational understanding of variables and data types will be crucial for more complex programming tasks and data handling in Python.
+This hands-on lab should help solidify your understanding of variables and data types in Python, setting a firm base for exploring more advanced concepts. Remember to experiment beyond these examples to enhance your learning!
