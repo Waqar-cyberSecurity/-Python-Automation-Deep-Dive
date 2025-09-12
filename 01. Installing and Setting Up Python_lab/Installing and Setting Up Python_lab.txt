@@ -1,0 +1,56 @@
+Lab Name: Installing and Setting Up Python
+Objectives
+Understand how to download and install the latest version of Python.
+Verify the Python installation on your system.
+Install and set up a code editor or IDE, focusing on Visual Studio Code (VS Code) and PyCharm.
+Prerequisites
+A computer with internet access.
+Basic knowledge of using a computer and navigating the internet.
+Lab Tasks
+Task 1: Download and Install the Latest Python Version
+Step 1: Download Python
+Visit the official Python website: Python.org
+Click on the Downloads tab.
+Choose your operating system (e.g., Windows, macOS, Linux) from the menu that appears.
+Click on the recommended installation icon to download the installer package. This may appear as Python 3.x.x.
+Step 2: Install Python
+For Windows:
+
+Navigate to your Downloads folder and double-click the downloaded Python installer (e.g., python-3.x.x.exe).
+In the installer window, check the box that says Add Python 3.x to PATH.
+Click on the Install Now button.
+Wait for the installation to complete, and then click Close.
+For macOS:
+
+Open the downloaded .pkg file.
+Follow the installer prompts and click Continue through the installation screens.
+Finish the installation by clicking Close.
+For Linux:
+
+sudo apt update
+sudo apt install python3
+Task 2: Verify Installation
+Open a terminal or command prompt on your system.
+
+Type the following command to check the installed Python version:
+
+python --version
+You should see output similar to Python 3.x.x, confirming that Python is installed.
+
+Task 3: Install a Code Editor or IDE
+Step 1: Install VS Code
+Visit the official Visual Studio Code website: code.visualstudio.com.
+Click on the Download button to get the installer for your operating system.
+Run the installer and follow the instructions to complete the installation process.
+Step 2: Install PyCharm
+Visit the JetBrains website: JetBrains PyCharm.
+Click on the Download button and select the Community edition for your operating system.
+Run the installer and follow the on-screen instructions to complete the setup.
+Key Concepts and Technical Terms
+Python: An open-source programming language known for its ease of learning and diverse applications.
+IDE: Integrated Development Environment, a software application providing comprehensive facilities to programmers.
+PATH: An environment variable specifying a set of directories where executable programs are located.
+Conclusion
+In this lab, you successfully downloaded and installed Python on your system and verified the installation through the command line. Additionally, you set up a versatile code editor, either Visual Studio Code or PyCharm, to facilitate your Python development. This foundational setup is crucial for future programming labs and projects.
+
+For further explorations, delve into introductory Python programming tutorials and start creating your first Python scripts!
